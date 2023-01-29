@@ -75,3 +75,34 @@ a {
     width: 500px;
     padding-left: 200px;
 }
+
+/*Image Section*/
+
+.imagesection {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subheader {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.fourpic {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.smallpic1, .smallpic2, .smallpic3, .smallpic4 {
+    width: 200px;
+    height: 200px;
+    border-color: #3882F6 3px;
+    border-radius: 10px;
+
+}
