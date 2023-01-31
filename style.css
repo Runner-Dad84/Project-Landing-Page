@@ -57,7 +57,7 @@ a {
     font-size: 18px;
 }
 
-.button {
+.button, .button2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,4 +132,46 @@ a {
     font-size: 24px;
     text-align: right;
     width: 33%;
+}
+
+/*Bottom Banner*/
+
+.bottombanner {
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: lightgrey;
+}
+
+.bluebox {
+    display:flex;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color:white;
+    width: 65%;
+}
+
+.blueboxtext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    flex-grow: 3;
+}
+
+.callquote {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.calltext {
+    font-size:18px;
+    font-style: italic;
+}
+
+.button2 {
+    border-color: white;
+    border-style: solid;
+    border-width: 1x;
 }
