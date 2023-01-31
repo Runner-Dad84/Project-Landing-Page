@@ -186,3 +186,17 @@ a:hover {
     border-style: solid;
     border-width: 1x;
 }
+
+/*Footer*/
+
+.footer {
+    background-color:#1F2937;
+    padding: 20px;
+}
+
+.copyright {
+    color:aliceblue;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
