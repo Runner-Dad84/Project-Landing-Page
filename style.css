@@ -24,6 +24,12 @@ a:hover {
     font-weight: 900;
 }
 
+img {
+    width:100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
 /*Header*/
 
 .header {
@@ -80,11 +86,15 @@ a:hover {
 }
 
 .mainpic {
-    background-color: gray;
-    height:350px;
-    width: 500px;
+    border-color: orange;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    height:400px;
+    width: 700px;
     margin-bottom: 100px;
 }
+
 
 /*Image Section*/
 
@@ -111,10 +121,10 @@ a:hover {
     gap: 25px;
 }
 
-.smallpic1, .smallpic2, .smallpic3, .smallpic4 {
+.pic {
     width: 200px;
-    height: 200px;
-    border-color: #3882F6;
+    height: 200px; 
+    border-color: orange;
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
@@ -190,6 +200,7 @@ a:hover {
 /*Footer*/
 
 .footer {
+
     background-color:#1F2937;
     padding: 20px;
 }
