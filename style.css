@@ -13,12 +13,14 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: darkorange;
     font-size: 18px;
 }
+
 a:visited {
     color:darkkhaki;
 }
+
 a:hover {
     color:deeppink;
     font-weight: 900;
@@ -33,7 +35,7 @@ img {
 /*Header*/
 
 .header {
-    background-color: #1F2937;
+    background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -61,7 +63,7 @@ img {
 }
 
 .title {
-    color: #f9faf8;
+    color:darkorange;
     font-size: 48px;
     font-weight:bolder;
 }
@@ -76,7 +78,7 @@ img {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: #3882F6;
+    background-color: darkorange;
     color:#f9faf8;
     font-weight: bold;
     padding:10px;
@@ -86,9 +88,9 @@ img {
 }
 
 .mainpic {
-    border-color: orange;
+    border-color: darkorange;
     border-style: solid;
-    border-width: 3px;
+    border-width: 5px;
     border-radius: 5px;
     height:400px;
     width: 700px;
@@ -108,7 +110,8 @@ img {
 }
 
 .subheader {
-    color:#1F2937;
+    color:darkorange;
+    font-weight: 900px;
     font-size: 36px;
     font-weight:900;
     padding: 20px;
@@ -124,10 +127,15 @@ img {
 .pic {
     width: 200px;
     height: 200px; 
-    border-color: orange;
+    border-color: darkorange;
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 700;
 }
 
 /*Quote Banner*/
@@ -168,7 +176,7 @@ img {
     justify-content: space-evenly;
     padding: 50px;
     border-radius: 10px;
-    background-color: #3882F6;
+    background-color: darkorange;
     color:white;
     width: 65%;
 }
@@ -177,7 +185,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: white;
+    color:#1F2937;
     flex-grow: 3;
 }
 
@@ -200,7 +208,6 @@ img {
 /*Footer*/
 
 .footer {
-
     background-color:#1F2937;
     padding: 20px;
 }
